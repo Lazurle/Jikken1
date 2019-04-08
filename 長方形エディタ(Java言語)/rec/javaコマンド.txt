@@ -1,0 +1,9 @@
+javac -J-Dfile.encoding=UTF-8
+java -Duser.language=ja -Dfile.encoding=UTF-8
+
+java -Duser.language=ja -Dfile.encoding=UTF-8 rec/RectangleEditor rec/Rectangle rec/Board rec/Command
+javac -J-Dfile.encoding=UTF-8 rec/RectangleEditor.java rec/Rectangle.java rec/Board.java rec/Command.java
+
+
+java rec/RectangleEditor rec/Rectangle rec/Board rec/Command
+javac rec/RectangleEditor.java rec/Rectangle.java rec/Board.java rec/Command.java

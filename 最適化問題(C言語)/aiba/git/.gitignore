@@ -1,0 +1,10 @@
+*~
+*.o
+*.swp
+tsp
+*.pdf
+*.aux
+*.log
+*.gz
+*.dSYM/
+gmon.out

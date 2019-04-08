@@ -1,0 +1,28 @@
+BP14003 HR˜aÆ
+î•ñÀŒ±I@‰Û‘è‚P
+
+client
+
+[bp14003@oli005 tcpip]$ ./client
+Connection established: socket 3 used.
+aaa
+AAA
+AAA
+aaa
+abc
+ABC
+Abc
+aBC
+
+server
+
+[bp14003@oli005 tcpip]$ ./server
+Connection established: socket 4 used.
+read: aaa
+write: AAA
+read: AAA
+write: aaa
+read: abc
+write: ABC
+read: Abc
+write: aBC

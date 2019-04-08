@@ -1,0 +1,83 @@
+BP14003 秋山和哉
+結果
+
+
+
+[bp14003@oli003 kadai]$ ./client
+Connection established: socket 3 used.
+
+◆◆ Program started ◆◆
+
+ QUIT: Quit, STAT: Status.
+(Enter into ANSR,after logging in.)
+
+[LogIn]
+USER bp14003
+Response: OK
+Permittion.
+PASS 30041pb
+Response: OK
+Permittion. Starting Quiz!...
+
+[Quiz]
+Correct: 0.
+QUIZ [2015] [地理]日本の都道府県の数はいくつ？ (1)22 (2)33 (3)47 (4)50
+ANSR 3
+Response: OK
+Correct: 1.
+QUIZ [2018] 「魔法先生ネギま！」に登場する「ネギ・スプリングフィールド」が担任を勤めている「麻帆良学園本校女子中等学校」のある学級に所属している「春日 美空」の出席番号 は何？
+ANSR 9
+Response: OK
+Correct: 2.
+QUIZ [2014] ロックバンド チェッカーズは何人組？
+ANSR 7
+Response: OK
+Correct: 3.
+QUIZ [2018] １から10の中に正解があります
+ANSR 6
+Response: NG
+Correct: 3.
+QUIZ [2011] 科学：宇宙船スプートニク2号に乗せられた犬の 名前は？ (1)クドリャフカ (2)ハチ (3)ライカ (4)お父さん
+ANSR 4
+Response: NG
+Correct: 3.
+QUIZ [2017] [太鼓の達人]千本桜(裏)の難易度「おに」の最大コンボは何コンボか？
+ANSR 1083
+Response: NG
+Correct: 3.
+QUIZ [2013] 数学：1京は10の何乗？
+ANSR 16
+Response: OK
+Correct: 4.
+QUIZ [2006] 歴史：天保の改革は何年？
+ANSR STAT
+Response: 0:1:4:3:4:3:9
+Go on next quiz.
+Correct: 4.
+QUIZ ERROR
+ANSR 1830
+Response: NG
+Correct: 4.
+QUIZ [2011] 物理：重力加速度9.8として自由落下させた時5秒後の位置は何m移動するか？
+ANSR 122
+Response: NG
+Correct: 4.
+QUIZ [2016] [パズドラ]経験値テーブルが一番高いキャラの必要経験値を答えよ
+ANSR
+Response: NG
+Correct: 4.
+QUIZ [2011] 音楽：AKB48「会いたかった」で会いたかったと 何回言っているか？
+ANSR 13
+Response: NG
+Correct: 4.
+QUIZ [2006] 数学：12×9+3
+ANSR 111
+Response: OK
+Completed.
+
+[Message]
+If you want hidden message, input "GET MESSAGE".
+Command? -> GET MESSAGE
+Response: 9f1406da2271244f
+Command? -> QUIT
+Good Bye.

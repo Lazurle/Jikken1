@@ -1,0 +1,93 @@
+[user@localhost a]$ gcc client_s.c rmd160.c
+[user@localhost a]$ ./a.out
+Connection established: socket 3 used.
+INFOEXP1-MIYOSHI-1803_1_Ver11.03
+Your key: kxCmeA82p8mw4412
+1. Make the RIPEMD-160 hash of your key.
+2. Send the hash result following "RIPEMD160".
+3. You should send it in 3 seconds.
+hashcode: 4899efe2925b403dd9dea41d311c24fe945747de
+RIPEMD160 4899efe2925b403dd9dea41d311c24fe945747de
+OK? 1. Make the RIPEMD-160 hash of your key.
+2. Send the hash result following "RIPEMD160".
+3. You should send it in 3 seconds.
+0 
+OK!!
+
+STEP
+Congratulations!!
+Your next code: zaKTOvyw
+Next info: http://www.geocities.jp/iexp1m/18ghbn58tsh3tm
+
+
+
+[user@localhost a]$ ./client 55629
+Connection established: socket 3 used.
+INFOEXP1-MIYOSHI-1803_2_Ver11.02
+Welcome bp14003, you are correctly authenticated.
+Your protocol is: 20000
+P2 start!!
+-9261
+3609
+Excellent. Go to next protocol
+P0 start!!
+6127
+Excellent. Go to next protocol
+P0 start!!
+3655
+Excellent. Go to next protocol
+P0 start!!
+4324
+Excellent. Go to next protocol
+P0 start!!
+6271
+Excellent. Go to next protocol
+FERMER 30041pb
+Congratulations!!
+Your clear code: e7a78be5b1b1e5928ce59389
+Clear time: 2C1E6 2EF36
+P2 start!!
+Go to the following URL: http://www.minet.se.shibaura-it.ac.jp/iexp1_2018/
+
+Go to the following URL: http://www.minet.se.shibaura-it.ac.jp/iexp1_2018/
+
+
+
+
+[bp14003@oli006 3]$ ./client_ver3
+Connection established: socket 3 used.
+
+◆◆ Program started ◆◆
+
+ QUIT: Quit, STAT: Status.
+(Enter into ANSR,after logging in.)
+
+[LogIn]
+USER bp14003
+Response: OK
+Permittion.
+PASS 30041pb
+Response: OK
+Permittion. Starting Quiz!...
+
+[Quiz]
+Correct: 0.
+QUIZ 【問題5】 http://www.minet.se.shibaura-it.ac.jp/iexp1_2018/05yl.html
+ANSR ハイパーキネティックポジションリバーサー
+Response: OK
+Correct: 1.
+QUIZ 【問題3】 http://www.minet.se.shibaura-it.ac.jp/iexp1_2018/0354262.html
+ANSR ポプテピピック
+Response: OK
+Correct: 2.
+QUIZ 【問題8】 http://www.minet.se.shibaura-it.ac.jp/iexp1_2018/08bb2.html
+ANSR 11
+Response: OK
+Completed.
+
+[Message]
+If you want hidden message, input "GET MESSAGE".
+Command? -> GET MESSAGE
+Response: 人間にとって大切なのは、この世に何年生きているかということではない。この世でどれだけの価値のあることをするかである。（Ｏ・ヘンリー）
+Command? -> QUIT
+Good Bye.

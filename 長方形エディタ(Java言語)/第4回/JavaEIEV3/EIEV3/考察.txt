@@ -1,0 +1,25 @@
+BP14003 秋山和哉
+
+～考察～
+
+（第一回から第二回へ）
+・moveを実装した、長方形を指定し、値を入力すると座標の情報を書き換えるようにした。
+・expand/shrinkを実装した、長方形を指定し幅高さを乗算し変更するようにした。
+・deleteALLを実装した、作成した四角形がない場合は実行されないようにした。
+・同じ長方形が作成されるのを防ぐために、iteratorを使用した。
+・この回はif文を使い線や点が作成されることを防いだ。
+・Boardクラスでは「public static final int BOARD_MAX_WIDTH = 500;」などとし、定数を定義した。
+・CommandクラスではマジックナンバーがないようにBoard.BOARD_MAX_HEIGHT等を使い例外処理を行った。
+
+（第二回から第三回へ）
+・出力をGUI化した。
+・import java.awtでColor,Graphics等々importを行った。
+・RectangleEditorでは入力をScannerからBufferedReaderへ変更を行った。
+・全てのクラスをEIEV3でpacckage化した。
+
+（第三回から第四回へ）
+・入出力をGUI化した。
+・GUI化するために、入力等、実質操作をCUIでなくなるようにした。
+・マウス動作に関係したクラスを新しく作成を行った。
+・java.awt.event.MouseEvent, java.awt.event.MouseListener等々のimportを行った。
+・コードの大幅な変更を行ったため、エラーの種類によって出力される条件文などをもうける必要があったと思う。

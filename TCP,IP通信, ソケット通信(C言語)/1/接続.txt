@@ -1,0 +1,37 @@
+[bp14003@oli007 kadai2]$ gcc -Wall server1-2.c -o kadai2
+[bp14003@oli007 kadai2]$ scp kadai2 dic-w.txt bp14003@oli003.sic.shibaura-it.ac.jp:
+bp14003@oli003.sic.shibaura-it.ac.jp's password:
+Permission denied, please try again.
+bp14003@oli003.sic.shibaura-it.ac.jp's password:
+kadai2                                        100%   10KB   9.8KB/s   00:00
+dic-w.txt                                     100%  701     0.7KB/s   00:00
+[bp14003@oli007 kadai2]$ ssh oli003.sic.shibaura-it.ac.jp -l bp14003
+bp14003@oli003.sic.shibaura-it.ac.jp's password:
+Last login: Thu Jun 28 15:14:38 2018 from oli007.sic.shibaura-it.ac.jp
+[bp14003@oli003 ~]$ ./kadai2
+Connection established: socket 5 used.
+read: bear
+write: ŒF
+read: cat
+write: ”L
+read: btsgbshua
+write: –¢“o˜^
+read: walf
+write: –¢“o˜^
+
+
+[bp14003@oli002 miyoshi]$ cd 1
+[bp14003@oli002 1]$ cd tcpip
+[bp14003@oli002 tcpip]$ cd kadai1
+[bp14003@oli002 kadai1]$ ls -a
+.   bp14003@oil001.sic.shibaura-it.ac.jp  client.c
+..  client                                kekka1.txt
+[bp14003@oli002 kadai1]$ gcc -Wall server.c -o server
+[bp14003@oli002 kadai1]$ scp server bp14003@oli003.sic
+bp14003@oli003.sic.shibaura-it.ac.jp's password:
+server                                        100% 995
+[bp14003@oli002 kadai1]$ ssh oli003.sic.shibaura-it.ac
+bp14003@oli003.sic.shibaura-it.ac.jp's password:
+Last login: Thu Jun 28 13:30:08 2018 from oli002.sic.s
+[bp14003@oli003 ~]$ ./server
+

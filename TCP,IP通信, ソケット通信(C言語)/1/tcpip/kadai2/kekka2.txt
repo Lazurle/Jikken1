@@ -1,0 +1,22 @@
+BP14003 HR˜aÆ
+‰Û‘è‚QŒ‹‰Ê
+
+client
+[bp14003@oli005 kadai2]$ ./client
+Connection established: socket 3 used.
+alligator
+˜k
+camel
+ƒ‰ƒNƒ_
+cat
+”L
+
+server
+[bp14003@oli005 kadai2]$ ./server1-2
+Connection established: socket 5 used.
+read: alligator
+write: ˜k
+read: camel
+write: ƒ‰ƒNƒ_
+read: cat
+write: ”L

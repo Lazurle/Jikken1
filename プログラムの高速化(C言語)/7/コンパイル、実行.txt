@@ -1,0 +1,10 @@
+[user@localhost 7]$ gcc -O2 -DCSQ kadai3-1.c
+[user@localhost 7]$ time ./a.out
+
+real	0m0.480s
+user	0m0.468s
+sys	0m0.002s
+[user@localhost 7]$ disply tmp.ppm
+bash: disply: ƒRƒ}ƒ“ƒh‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ
+[user@localhost 7]$ display tmp.ppm
+ convert tmp.ppm tmp.bmp
